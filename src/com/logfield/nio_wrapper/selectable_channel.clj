@@ -1,5 +1,5 @@
 (ns com.logfield.nio-wrapper.selectable-channel
-  (:require [c2s-proxy-service.operation-set :as operation-set]))
+  (:require [c2s-proxy-service.nio-wrapper.operation-set :as operation-set]))
 
 (defn- valid-operations
   [selectable-channel]

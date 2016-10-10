@@ -1,4 +1,4 @@
-(ns c2s-proxy-service.socket-channel
+(ns com.logfield.nio-wrapper.socket-channel
   (:import (java.nio.channels ClosedChannelException)))
 
 ;; TODO Wrapper not complete. Lacking open, connect, read and write.
